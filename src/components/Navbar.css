@@ -1,22 +1,22 @@
-/* Navbar Styling */
 nav {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.1rem;
-    transition: color 0.3s ease, transform 0.2s ease;
-  }
-  
-  nav a:hover {
-    color: #ffcc00;
-    transform: scale(1.1);
-  }
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+}
