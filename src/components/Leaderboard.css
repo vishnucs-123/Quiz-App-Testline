@@ -1,43 +1,43 @@
-/* Leaderboard Page Styling */
 .leaderboard-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .leaderboard-container h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  }
-  
-  .leaderboard-container table {
-    width: 100%;
-    max-width: 600px;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  }
-  
-  .leaderboard-container th,
-  .leaderboard-container td {
-    padding: 12px;
-    text-align: center;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .leaderboard-container th {
-    background-color: #6a11cb;
-    color: white;
-  }
-  
-  .leaderboard-container tr:hover {
-    background-color: rgba(106, 17, 203, 0.1);
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.leaderboard-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.leaderboard-container table {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.leaderboard-container th, 
+.leaderboard-container td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.leaderboard-container th {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.leaderboard-container tr:hover {
+  background-color: rgba(106, 17, 203, 0.3);
+}
